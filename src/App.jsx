@@ -15,7 +15,7 @@ function App() {
     if (navigator.geolocation) {
       setTimeout(() => {
         navigator.geolocation.getCurrentPosition(showPosition);
-      }, 100);
+      }, 1000);
     } else {
       console.log("NOONO")
     }
