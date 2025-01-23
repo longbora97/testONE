@@ -13,7 +13,7 @@ function App() {
 
   function getLocation() {
     if (navigator.geolocation) {
-      setTimeout(() => {
+      setInterval(() => {
         navigator.geolocation.getCurrentPosition(showPosition);
       }, 1000);
     } else {
